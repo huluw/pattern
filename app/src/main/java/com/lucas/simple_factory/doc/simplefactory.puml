@@ -1,0 +1,24 @@
+@startuml
+
+
+interface Shape {
+	draw()
+}
+
+class Rectangle implements Shape {
+	+draw()
+}
+
+class Circle implements Shape {
+	+draw()
+}
+
+class Square implements Shape {
+    +draw()
+}
+
+class SimpleShapeFactory {
+	getShape(shapeType: string): Shape
+}
+
+@enduml
