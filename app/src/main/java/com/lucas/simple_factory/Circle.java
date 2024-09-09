@@ -1,6 +1,5 @@
 package com.lucas.simple_factory;
 
-import android.util.Log;
 
 /**
  * File: null.java
